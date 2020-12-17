@@ -1,0 +1,36 @@
+button
+{
+	background-color: white;
+	border-color: #DEEBFF; 
+	border-radius: 50px;
+	border: 2px solid #F2F2F2;
+}
+button:hover
+{
+	position: relative;
+	background-color: #DEEBFF;
+	border-color: #DEEBFF; 	
+}
+
+.filtreicone
+{
+	display: flex;
+	position: absolute;
+	background-color: #DEEBFF;
+	align-items: left;
+	margin-left: -35px;
+	padding: 8.5px;
+	top: -3px;
+	border-radius: 150%;
+	color: #0065FC;
+}
+
+.filtretxt
+{
+	display: flex;
+	position: relative;
+	padding-left: 25px;
+	padding-top: 0.3em;
+	padding-right: 0.3em;
+	padding-bottom: 0.3em;
+}
