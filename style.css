@@ -8,29 +8,42 @@ button
 button:hover
 {
 	position: relative;
-	background-color: #DEEBFF;
-	border-color: #DEEBFF; 	
+	background-color: #DEEBFF;	
 }
 
 .filtreicone
 {
 	display: flex;
 	position: absolute;
-	background-color: #DEEBFF;
-	align-items: left;
-	margin-left: -35px;
-	padding: 8.5px;
-	top: -3px;
-	border-radius: 150%;
+	margin-left: -20px;
+	/*background-color: #DEEBFF;*/
+	padding: 10px;
+	/*top: -3px;*/
+	/*border-radius: 150%;*/
 	color: #0065FC;
+	font-size: 1em;
+}
+
+.filtreicone1
+{
+display: flex;
+position: relative;
+margin-left: -20px;
+margin-top: -2px;
+margin-bottom: -3px;
+margin-right: 0.3em;
+color: #DEEBFF;
+font-size: 1.2em;
 }
 
 .filtretxt
 {
 	display: flex;
 	position: relative;
-	padding-left: 25px;
-	padding-top: 0.3em;
+	padding-left: 10px;
+	align-items: center;
+	/*padding-top: 0.3em;*/
 	padding-right: 0.3em;
-	padding-bottom: 0.3em;
+	/*padding-bottom: 0.3em;*/
 }
+
