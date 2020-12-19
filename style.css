@@ -2,48 +2,35 @@ button
 {
 	background-color: white;
 	border-color: #DEEBFF; 
-	border-radius: 50px;
+	border-radius: 20px;
 	border: 2px solid #F2F2F2;
+	display: flex;
+	align-items: center;
+	padding-left: 0px;
+	margin: 10px;
 }
+
 button:hover
 {
-	position: relative;
+
 	background-color: #DEEBFF;	
 }
 
-.filtreicone
+.filtres
 {
 	display: flex;
 	position: absolute;
-	margin-left: -20px;
-	/*background-color: #DEEBFF;*/
-	padding: 10px;
-	/*top: -3px;*/
-	/*border-radius: 150%;*/
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+	margin-left: -2px;
 	color: #0065FC;
-	font-size: 1em;
 }
 
-.filtreicone1
+.fa-circle
 {
-display: flex;
-position: relative;
-margin-left: -20px;
-margin-top: -2px;
-margin-bottom: -3px;
-margin-right: 0.3em;
+margin-left: -2px;
+font-size: 2.5em;
 color: #DEEBFF;
-font-size: 1.2em;
 }
-
-.filtretxt
-{
-	display: flex;
-	position: relative;
-	padding-left: 10px;
-	align-items: center;
-	/*padding-top: 0.3em;*/
-	padding-right: 0.3em;
-	/*padding-bottom: 0.3em;*/
-}
-
