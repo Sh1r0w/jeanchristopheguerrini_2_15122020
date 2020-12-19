@@ -3,7 +3,7 @@ button
 	background-color: white;
 	border-color: #DEEBFF; 
 	border-radius: 20px;
-	border: 2px solid #F2F2F2;
+	border: 3px solid #F2F2F2;
 	display: flex;
 	align-items: center;
 	padding-left: 0px;
@@ -13,7 +13,8 @@ button
 button:hover
 {
 
-	background-color: #DEEBFF;	
+	background-color: #DEEBFF;
+	border: 2px solid #DEEBFF;	
 }
 
 .filtres
