@@ -20,7 +20,6 @@ button:hover
 .filtres
 {
 	display: flex;
-	position: absolute;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
