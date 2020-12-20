@@ -114,7 +114,7 @@ h3
 {
 	margin-left: -4px;
 	color: #0065FC;
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
 
 .fa-circle
@@ -136,6 +136,34 @@ color: #DEEBFF;
 {
 	background-color: #DEEBFF;
 	font-style: italic;
+}
+
+p
+{
+margin-left: 30px;
+}
+
+p .far
+{
+	font-size: 2rem;
+	margin-top: -8px;
+	margin-left: 40px;
+	color: #F2F2F2;
+
+}
+
+p .fas
+{
+	padding-right: -10px;
+	color: #0065FC;
+	margin-left: 53px;
+}
+
+p .fas, p .far
+{
+
+	align-items: center;
+	display: flex;
 }
 
 /* cadre hebergement */
