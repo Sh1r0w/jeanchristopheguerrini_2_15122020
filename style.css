@@ -137,33 +137,21 @@ color: #DEEBFF;
 	background-color: #DEEBFF;
 	font-style: italic;
 }
-
-p
+p i
 {
-margin-left: 30px;
+	display: flex;
 }
-
 p .far
 {
 	font-size: 2rem;
-	margin-top: -8px;
-	margin-left: 40px;
 	color: #F2F2F2;
 
 }
 
 p .fas
 {
-	padding-right: -10px;
 	color: #0065FC;
-	margin-left: 53px;
-}
-
-p .fas, p .far
-{
-
-	align-items: center;
-	display: flex;
+	margin-left: -8px;
 }
 
 /* cadre hebergement */
