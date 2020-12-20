@@ -3,88 +3,82 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<head>
 	<title>Trouvez votre hébergement de vacance avec Reservia !</title>
-</head>
 <body>
+	<div class="bloc_page">
 
 <!-- Header avec Menu et logo -->
 <header>
-	<div class="logo header">
-		<img src="Reservia@3x.png" title="On vous aides à trouvez votre Hebergement de vacance">
-	</div>
+		<img src="Reservia@3x.png" alt="Idéal pour vos vacances" class="logoreservia">
 
 	<nav>
-		<div class="menu">
 			<ul>
-				<li><a href="">Hébergement</a></li>
-				<li><a href="">Activités</a></li>
-				<li><a href="">S'inscrire</a></li>
+				<li><a href="#">Hébergements</a></li>
+				<li><a href="#">Activités</a></li>
+				<li><a href="#">S'inscrire</a></li>
 			</ul>
-		</div>
 	</nav>
 </header>
+
 <!-- Text et recherche -->
 
 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 <p>En plein centre ville ou en pleine nature</p>
 
 <div class="recherche">
-	<form method="post" action="">
+	<form method="post" action="#">
 		<i class="fas fa-map-marker-alt"></i>
-		<input type="text" name="" value="Marseille, France">
-		<input type="submit" value="Rechercher" title="Rechercher">
+		<input type="text" class="irecherche" placeholder="Marseille, France">
+		<input type="submit" class="btnrecherche" value="Rechercher">
 	</form>
 </div>
 
 <!-- Filtres -->
+<div class="filtreinfo">
+<form method="post">
 <div class="filtres">
-<p><strong>Filtres</strong></p>
 
-	<button class="economique">
+<h1>Filtres</h1>
+
+	<div class="filtrebtn">
 		<div class="fa-stack">
 				<i class="fas fa-circle fa-stack-1x"></i> 
 				<i class="fas fa-money-bill-wave fa-sm fa-stack-1x"></i>
-		</div>	
-		<div class="filtretxt">
-			<strong>Économique</strong>
-		</div>
-	</button>
-	<button class="familial">
+			</div>
+
+			<span><strong>Économique</strong></span>
+	</div>
+	<div class="filtrebtn">
 		<div class="fa-stack">
 				<i class="fas fa-circle fa-stack-1x"></i> 
 				<i class="fas fa-child fa-sm fa-stack-1x"></i>
 		</div>
-		<div class="filtretxt">
 			<strong>Familial</strong>
-		</div>
-	</button>
-	<button class="Romantique">
+	</div>
+	<div class="filtrebtn">
 		<div class="fa-stack">
 				<i class="fas fa-circle fa-stack-1x"></i> 
 				<i class="fas fa-heart fa-sm fa-stack-1x"></i> 
 		</div>	
 
-		<div class="filtretxt">
 			<strong>Romantique</strong>
-		</div>
-</button>
-<button class="animaux">	
-		<div class="fa-stack">
+</div>
+<div class="filtrebtn">	
+		<span class="fa-stack">
 			<i class="fas fa-circle fa-stack-1x"></i> 
 			<i class="fas fa-dog fa-sm fa-stack-1x"></i>
-		</div>
-		<div class="filtretxt">
+		</span>
 		<strong>Animaux autorisés</strong>
-	</div>
-</button>
 </div>
-
+</div>
+</form>
 <br/>
 <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+</div>
 
 <!-- Cadre Hebergement -->
 
+<section class="centre">
 <div class="hebergement">
 	<h2>Hébergements à Marseille</h2>
 	<div class="cadreh1">
@@ -128,8 +122,9 @@
 
 <!-- Cadre Populaires -->
 
+<aside>
 <div class="Populaires">
-	<h2>Hébergements à Marseille</h2>
+	<h2>Les plus populaires</h2>
 	<div class="cadrep1">
 		<img src="">
 		<h3>Hôtel Le soleil du matin</h3>
@@ -149,7 +144,8 @@
 		<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 	</div>
 </div>
-
+</aside>
+</section>
 <!-- Cadre Activités -->
 
 <div class="activites">
@@ -199,7 +195,6 @@
 		<p>Nous contacter</p><br />
 	</div>	
 </div>
-
-
+</div>
 </body>
 </html>

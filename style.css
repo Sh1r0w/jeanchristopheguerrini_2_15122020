@@ -1,36 +1,121 @@
-button
+/* Police fournie Raleway */
+@font-face {
+	font-family: 'Raleway';
+	src: url('font/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Corps du site */
+body
 {
-	background-color: white;
-	border-color: #DEEBFF; 
-	border-radius: 20px;
-	border: 3px solid #F2F2F2;
 	display: flex;
-	align-items: center;
-	padding-left: 0px;
-	margin: 10px;
+	flex-direction: column;
+	font-family: Raleway;
+	margin: auto;
+	max-width: 1440px
 }
-
-button:hover
+.bloc_page
 {
-
-	background-color: #DEEBFF;
-	border: 3px solid #DEEBFF;	
+	padding: 0 3rem 0 3rem;
 }
+
+/* header */
+header
+{
+	justify-content: space-between;
+	display: flex;
+	padding:	50px 0 50px 0;
+}
+.logoreservia
+{
+	width: 96px;
+	display: flex;
+	align-items: baseline;
+}
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+}
+
+nav li
+{
+	margin-right: 66px;
+}
+
+nav a
+{
+	color:	#0065FC;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	border-top: 4px solid #0065FC;
+	padding-top: 62px;
+	font-weight: bold;
+	font-style: italic;
+}
+/* text et recherche */
+.rechercher i, input
+{
+	margin-right: -5px;
+	padding: 16px;
+}
+.fa-map-marker-alt
+{
+	background-color: #F2F2F2;
+	padding: 15px 15px 18px 15px;
+	margin-right: -5px;
+	border-radius: 30% 0 0 30%;
+}
+.btnrecherche
+{
+	background-color: #0065FC;
+	border:1px solid #0065FC;
+	color: white;
+	border-radius: 0 15px 15px 0;
+	cursor: pointer;
+}
+.irecherche
+{
+	border: 1px solid #F2F2F2;
+}
+
+/* filtres */
 
 .filtres
 {
 	display: flex;
+	top: 200px;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
-	margin-left: -2px;
+	margin-left: -9px;
 	color: #0065FC;
 }
 
 .fa-circle
 {
-margin-left: -2px;
-font-size: 2.5em;
+margin-left: -20px;
+font-size: 3.8rem;
 color: #DEEBFF;
 }
+.filtrebtn
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 50px;
+	cursor: pointer;
+	margin: 1rem;
+	align-items: center;
+	padding: 0.8rem;
+}
+.filtrebtn:hover
+{
+	background-color: #DEEBFF;
+	font-style: italic;
+}
+
+/* cadre hebergement */
