@@ -3,16 +3,20 @@
 	font-family: 'Raleway';
 	src: url('font/Raleway-VariableFont_wght.ttf') format('truetype');
 }
-
+@font-face {
+	font-family: 'Raleway_italic';
+	src: url('font/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
 /* Corps du site */
 body
 {
 	display: flex;
 	flex-direction: column;
-	font-family: Raleway;
+	font-family: "raleway", "sans sherif";
 	margin: auto;
 	max-width: 1440px
 }
+
 .bloc_page
 {
 	padding: 0 3rem 0 3rem;
@@ -57,7 +61,9 @@ nav a:hover
 	font-weight: bold;
 	font-style: italic;
 }
+
 /* text et recherche */
+
 .rechercher i, input
 {
 	margin-right: -5px;
