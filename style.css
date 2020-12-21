@@ -190,7 +190,7 @@ article
 	/*height: auto;*/
 	flex: 2.5;
 	border-radius: 20px;
-	padding: 80px 40px 50px 40px;
+	padding: 80px 40px 0px 40px;
 }
 
 .hebergement
@@ -208,6 +208,7 @@ article
 	cursor: pointer;
 	border-radius: 30px;
 	box-shadow: 0 0 10px grey;
+	background-color: white;
 
 }
 
@@ -242,9 +243,10 @@ aside
 	padding: 0px 0 5px 0;
 	margin:	0px 40px 50px 0;
 	border:	5px solid white;
-	border-radius: 35px;
+	border-radius: 30px;
 	background-color: white;
 	cursor: pointer;
+	justify-content: space-between;
 }
 
 .cadrep h3, .cadrep p, .cadrep i
