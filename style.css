@@ -95,7 +95,7 @@ h1
 .fa-map-marker-alt
 {
 	background-color: #F2F2F2;
-	padding: 13px 14px 16px 14px;
+	padding: 16px 14px 17px 14px;
 	margin-right: -5px;
 	border-radius: 30% 0 0 30%;
 }
@@ -247,6 +247,7 @@ aside
 	background-color: white;
 	cursor: pointer;
 	justify-content: space-between;
+	box-shadow: 0 0 10px grey;
 }
 
 .cadrep h3, .cadrep p, .cadrep i
@@ -270,3 +271,80 @@ aside
 {
 	border: 5px solid #DEEBFF;
 }
+
+/* cadre activités */
+
+#activites
+{
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+#activites h2
+{
+	position: absolute;
+	margin: 0 0 0 40px;
+}
+
+.cadrea
+{
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 0 10px;
+	margin: 40px 0 0 0;
+	border-radius: 25px 25px 25px 25px;
+	cursor: pointer;
+}
+
+.vieuxport, .calanques
+{
+	width: 100%;
+	height: 390px;
+	object-fit: cover;
+	border-radius: 25px 25px 0 0;
+}
+
+.pomegues
+{
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 25px 25px 0 0;
+}
+
+.frioul
+{
+	width: 100%;
+	height: 110px;
+	object-fit: cover;
+	border-radius: 25px 25px 0 0;
+}
+
+.notredame
+{
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 25px 25px 0 0;
+}
+
+.longchamp
+{
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 25px 25px 0 0;
+}
+
+.cadrea h3
+{
+	padding: 0 0 10px 30px;
+}
+
+ .cadreaensemble1 .cadrea h3
+ {
+
+ }
