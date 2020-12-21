@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="FR">
-<meta charset="utf-8">
 <head>
+<meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>Trouvez votre hébergement de vacance avec Reservia !</title>
@@ -15,8 +15,8 @@
 
 	<nav>
 			<ul>
-				<li><a href="#">Hébergements</a></li>
-				<li><a href="#">Activités</a></li>
+				<li><a href="#hebergements">Hébergements</a></li>
+				<li><a href="#activites">Activités</a></li>
 				<li><a href="#" class="inscription">S'inscrire</a></li>
 			</ul>
 	</nav>
@@ -55,7 +55,7 @@
 				<i class="fas fa-circle fa-stack-1x"></i> 
 				<i class="fas fa-child fa-stack-1x"></i>
 		</div>
-			<strong>Familial</strong>
+			<span><strong>Familial</strong></span>
 	</div>
 	<div class="filtrebtn">
 		<div class="fa-stack">
@@ -63,14 +63,14 @@
 				<i class="fas fa-heart fa-stack-1x"></i> 
 		</div>	
 
-			<strong>Romantique</strong>
+			<span><strong>Romantique</strong></span>
 </div>
 <div class="filtrebtn">	
 		<span class="fa-stack">
 			<i class="fas fa-circle fa-stack-1x"></i> 
 			<i class="fas fa-dog fa-stack-1x"></i>
 		</span>
-		<strong>Animaux autorisés</strong>
+		<span><strong>Animaux autorisés</strong></span>
 </div>
 </div>
 </form>
@@ -79,13 +79,15 @@
 </div>
 
 <!-- Cadre Hebergement -->
-<section>
+<section id="hebergements">
+	<h2 class="titre_hebergement">Hébergements à Marseille</h2>
+
 	<article>
-		<h2>Hébergements à Marseille</h2>
+		
 <div class="hebergement">
 
 	<div class="cadreh">
-		<img src="images/img/aubergecanebiere.png">
+		<img src="images/img/cannebiere.jpg" class="imghebergement">
 		<h3>Auberge la Cannebière</h3>
 		<p>Nuit à partir de <strong>25€</strong></p>
 		<div class="noteh">
@@ -93,7 +95,7 @@
 		</div>
 	</div>
 	<div class="cadreh">
-		<img src="images/img/hotelport.png">
+		<img src="images/img/hotelport.jpg" class="imghebergement">
 		<h3>Hôtel du port</h3>
 		<p>Nuit à partir de <strong>52€</strong></p>
 		<div class="noteh">
@@ -101,7 +103,7 @@
 		</div>
 	</div>
 	<div class="cadreh">
-		<img src="images/img/mouettes.png">
+		<img src="images/img/mouettes.jpg" class="imghebergement">
 		<h3>Hôtel Les mouettes</h3>
 		<p>Nuit à partir de <strong>76€</strong></p>
 		<div class="noteh">
@@ -109,7 +111,7 @@
 		</div>
 	</div>
 	<div class="cadreh">
-		<img src="images/img/hoteldelamer.png">
+		<img src="images/img/hotelmer.jpg" class="imghebergement">
 		<h3>Hôtel de la mer</h3>
 		<p>Nuit à partir de <strong>46€</strong></p>
 		<div class="noteh">
@@ -117,7 +119,7 @@
 		</div>
 	</div>
 	<div class="cadreh">
-		<img src="images/img/panier.png">
+		<img src="images/img/panier.jpg" class="imghebergement">
 		<h3>Auberge Le Panier</h3>
 		<p>Nuit à partir de <strong>23€</strong></p>
 		<div class="noteh">
@@ -125,7 +127,7 @@
 		</div>
 	</div>
 	<div class="cadreh">
-		<img src="images/img/amina.png">
+		<img src="images/img/amina.jpg" class="imghebergement">
 		<h3>Hôtel chez Amina</h3>
 		<p>Nuit à partir de <strong>96€</strong></p>
 		<div class="noteh">
@@ -142,19 +144,19 @@
 <div class="populaires">
 	<h2>Les plus populaires</h2>
 	<div class="cadrep">
-		<img src="images/img/matin.png">
+		<img src="images/img/matin.jpg" class="imgpopulaires">
 		<h3>Hôtel Le soleil du matin</h3>
 		<p>Nuit à partir de <strong>128€</strong></p>
 			<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 	</div>
 	<div class="cadrep">
-		<img src="images/img/eau.png">
+		<img src="images/img/eau.jpg" class="imgpopulaires">
 		<h3>Au cœur de l'eau Chambres d'hôtes</h3>
 		<p>Nuit à partir de <strong>71€</strong></p>
 		<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 	</div>
 	<div class="cadrep">
-		<img src="images/img/bleu.png">
+		<img src="images/img/bleu.jpg" class="imgpopulaires">
 		<h3>Hôtel Tout bleu et Blanc</h3>
 		<p>Nuit à partir de <strong>68€</strong></p>
 		<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
@@ -164,8 +166,8 @@
 </section>
 <!-- Cadre Activités -->
 
-<div class="activites">
-	<h2>Hébergements à Marseille</h2>
+<div id="activites">
+	<h2>Activités à Marseille</h2>
 	<div class="cadrea1">
 		<img src="">
 		<h3>Vieux Port</h3>
