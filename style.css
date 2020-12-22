@@ -51,25 +51,25 @@ header
 	align-items: baseline;
 }
 
-nav ul
+header nav ul
 {
 	display: flex;
 	list-style-type: none;
 }
 
-nav li
+header nav li
 {
 	margin-right: 66px;
 }
 
-nav a
+header nav a
 {
 	color:	#0065FC;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-nav a:hover
+header nav a:hover
 {
 	border-top: 4px solid #0065FC;
 	padding-top: 62px;
@@ -173,6 +173,14 @@ p .fas
 }
 
 /* cadre hebergement et populaires */
+#blue
+{
+	color: #0065FC;
+}
+.fa-star
+{
+	color: #F2F2F2;
+}
 section
 {
 	display: flex
@@ -241,7 +249,7 @@ aside
 .cadrep
 {
 	padding: 0px 0 5px 0;
-	margin:	0px 40px 50px 0;
+	margin:	30px 40px 50px 0;
 	border:	5px solid white;
 	border-radius: 30px;
 	background-color: white;
@@ -344,7 +352,33 @@ aside
 	padding: 0 0 10px 30px;
 }
 
- .cadreaensemble1 .cadrea h3
+ .cadreaensemble1
  {
-
+ 	padding: 0 0 
  }
+
+ /* footer */
+
+footer
+ {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	background-color: #F2F2F2;
+ 	margin: 40px 0 0 0;
+ 	padding: 20px;
+ }
+
+ .f1 li, .f1 nav a
+{
+	text-align: left;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0 120px 20px 0;
+	font-size: 0.8rem;
+}
+.f1 h4
+{
+	margin: 0 0 0 40px;
+	font-size: 0.9rem;
+
+}
