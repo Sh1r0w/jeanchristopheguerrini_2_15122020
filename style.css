@@ -38,6 +38,7 @@ h1, h2, h3, h4, span, .irecherche
 }
 
 /* header */
+
 header
 {
 	justify-content: space-between;
@@ -82,6 +83,7 @@ header nav a:hover
 }
 
 /* text et recherche */
+
 h1
 {
 	margin-bottom: -10px;
@@ -116,6 +118,7 @@ h1
 }
 
 /* filtres */
+
 h3
 {
 	padding: 10px 30px 0 0;
@@ -173,6 +176,7 @@ p .fas
 }
 
 /* cadre hebergement et populaires */
+
 .cadreh .blue, .cadrep .blue
 {
 	color: #0065FC;
@@ -238,11 +242,19 @@ article
 	font-size: 1rem;
 }
 
+article .afficher_plus
+{
+	font-size: 1rem;
+	font-family: 'raleway_sb','sans serif';
+	text-decoration: none;
+	color: black;
+}
+
 aside
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	padding: 20px 0 50px 40px;
+	padding: 20px 0 0 40px;
 	margin-left: 40px;
 	flex: 1.1;
 }
@@ -308,7 +320,7 @@ aside
 	width: 300px;
 	height: 100%;
 	background-color: white;
-	box-shadow: 0 0 10px;
+	box-shadow: 0 0 5px;
 	margin: 40px 0 0 0;
 	border-radius: 25px 25px 25px 25px;
 	cursor: pointer;
@@ -364,10 +376,15 @@ aside
  	align-self: stretch;
  	width: 300px;
 	background-color: white;
-	box-shadow: 0 0 10px;
+	box-shadow: 0 0 5px;
 	margin: 40px 0 65px 0;
 	border-radius: 25px 25px 25px 25px;
 	cursor: pointer;
+ }
+
+ .cadrea:hover, .cadreaensemble1 .cadrea1:hover
+ {
+ 	box-shadow: 0 0 15px;
  }
 
  /* footer */
@@ -388,6 +405,7 @@ footer
 	list-style-type: none;
 	margin: 0 120px 20px 0;
 	font-size: 0.8rem;
+	color: black;
 }
 .f1 h4
 {
