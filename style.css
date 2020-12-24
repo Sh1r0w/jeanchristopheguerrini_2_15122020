@@ -11,7 +11,6 @@
 body
 {
 	display: flex;
-	flex-direction: column;
 	margin: auto;
 	max-width: 1440px
 
@@ -34,7 +33,7 @@ h1, h2, h3, h4, span, .irecherche
 
 .bloc_page
 {
-	padding: 0 3rem 0 3rem;
+	padding: 0 2% 0 2%;
 }
 
 .hebergement a, .cadrep a, .cadrea a, .cadrea1 a
@@ -47,27 +46,32 @@ h1, h2, h3, h4, span, .irecherche
 
 header
 {
-	justify-content: space-between;
 	display: flex;
-	padding:	50px 0 50px 0;
+	padding:	4% 0 3% 0;
 }
 .logoreservia
 {
-	width: 96px;
-	display: flex;
-	align-items: baseline;
+	width: 10%;
 }
 
 header nav ul
 {
 	display: flex;
 	list-style-type: none;
+	margin: 26% 0 0 0%;
+
 }
 
 header nav li
 {
-	margin-right: 66px;
+	padding: 0 0 0 30%;
 }
+
+.menu
+{
+margin: 0 0 0 60%;
+}
+
 
 header nav a
 {
@@ -79,32 +83,37 @@ header nav a
 header nav a:hover
 {
 	border-top: 4px solid #0065FC;
-	padding-top: 62px;
+	padding-top: 103px;
 	font-style: italic;
 }
 
 .inscription
 {
 	font-weight: bold;
+	color:	#0065FC;
+	text-decoration: none;
+	margin: 2% 0 0 51%;
+	position: absolute;
+
 }
 
 /* text et recherche */
 
 h1
 {
-	margin-bottom: -10px;
+	margin-bottom: 1%;
 	font-size: 1.5em;
 }
 .rechercher i, input
 {
-	margin-right: -5px;
-	padding: 14px 14px 14px 14px;
+	margin-right: -1%;
+	padding: 1.5%;
 }
 .fa-map-marker-alt
 {
 	background-color: #F2F2F2;
-	padding: 16px 14px 17px 14px;
-	margin-right: -5px;
+	padding: 1.7%;
+	margin-right: -1%;
 	border-radius: 30% 0 0 30%;
 }
 .btnrecherche
@@ -123,31 +132,45 @@ h1
 	font-size: 1rem;
 }
 
+.fa-search
+{
+	border: 1px solid #0065FC;
+	background-color: #0065FC; 
+	color: white;
+	border-radius: 30% 30% 30% 30%;
+	padding: 25% 25% 25% 25%;
+}
+.loupe
+{
+	display: none;
+}
+
 /* filtres */
 
 h3
 {
-	padding: 10px 30px 0 0;
+	padding: 1% 3% 0 0.5%;
 
 }
 
 .filtres
 {
 	display: flex;
+	margin-top: 2%
 }
 
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
-	margin-left: -4px;
+	margin-left: -15%;
 	color: #0065FC;
-	font-size: 1.2rem;
+	font-size: 120%;
 }
 
 .fa-circle
 {
-margin-left: -8px;
-font-size: 3.1rem;
+margin-left: -30%;
+font-size: 320%;
 color: #DEEBFF;
 }
 .filtrebtn
@@ -155,9 +178,9 @@ color: #DEEBFF;
 	border: 3px solid #F2F2F2;
 	border-radius: 50px;
 	cursor: pointer;
-	margin: 1rem;
+	margin: 1%;
 	align-items: center;
-	padding: 0.4rem 1rem 0.4rem 0;
+	padding: 0.4rem 1.5rem 0.4rem 0.5rem;
 }
 .filtrebtn:hover
 {
@@ -170,7 +193,7 @@ p i
 }
 p .far
 {
-	font-size: 2rem;
+	font-size: 180%;
 	color: #F2F2F2;
 
 }
@@ -178,8 +201,10 @@ p .far
 p .fas
 {
 	color: #0065FC;
-	margin-left: -8px;
+	margin-left: -15%;
 }
+
+
 
 /* cadre hebergement et populaires */
 
@@ -198,17 +223,16 @@ section
 .titre_hebergement
 {
 	position: absolute;
-	padding: 20px 40px 50px 40px;
+	padding: 1% 2% 5% 1.2%;
+	font-size: 140%
 }
 
 article
 {
 	background-color: #F2F2F2;
-	/*width: 800px;*/
-	/*height: auto;*/
 	flex: 2.5;
 	border-radius: 20px;
-	padding: 80px 40px 0px 40px;
+	padding: 6% 2% 3% 2%;
 }
 
 .hebergement
@@ -222,7 +246,7 @@ article
 .cadreh
 {
 	border: 5px solid white;
-	margin: 0 0 40px 0px;
+	margin: 1% 0 6% 0;
 	cursor: pointer;
 	border-radius: 30px;
 	box-shadow: 0 0 10px grey;
@@ -243,14 +267,14 @@ article
 }
 .cadreh h3, .cadreh p, .noteh
 {
-	margin: 0 0 5px 10px;
+	margin: 0 0 4% 4%;
 	flex-wrap: wrap;
-	font-size: 1rem;
+	font-size: 100%;
 }
 
 article .afficher_plus
 {
-	font-size: 1rem;
+	font-size: 110%;
 	font-family: 'raleway_sb','sans serif';
 	text-decoration: none;
 	color: black;
@@ -260,14 +284,14 @@ aside
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	padding: 20px 0 0 40px;
-	margin-left: 40px;
+	padding: 2% 0 0 4%;
+	margin-left: 4%;
 	flex: 1.1;
 }
 .cadrep
 {
-	padding: 0px 0 5px 0;
-	margin:	30px 40px 50px 0;
+	padding: 0 0% 1.3% 0;
+	margin:	1% 10% 20% 0;
 	border:	5px solid white;
 	border-radius: 30px;
 	background-color: white;
@@ -278,9 +302,8 @@ aside
 
 .cadrep h3, .cadrep p, .cadrep i
 {
-	font-size: 0.9rem;
-	margin: 0 0 16px 0px;
-	flex-wrap: wrap;
+	font-size: 100%;
+	margin: 0 0 5% 0;
 }
 
 .imgpopulaires
@@ -290,7 +313,7 @@ aside
 	object-fit: cover;
 	border-radius: 25px 0px 0 25px;
 	float: left;
-	padding: 0 15px 0px 0;
+	padding: 0 2% 0 0;
 }
 
 .cadrep:hover
@@ -301,13 +324,16 @@ aside
 .fa-chart-line
 {
 	display: flex;
-	font-size: 1.5rem;
+	font-size: 140%;
 	position: absolute;
-	margin: -40px 0 0 300px;
+	margin: -2.2% 0 0 12.5%;
 }
 
+aside h2
+{
+	padding:0 0 5% 0;
+}
 /* cadre activités */
-
 #activites
 {
 	margin: 40px 0 0 0;
@@ -392,24 +418,23 @@ aside
  {
  	box-shadow: 0 0 15px;
  }
-
  /* footer */
+
 
 footer
  {
  	display: flex;
  	justify-content: space-between;
  	background-color: #F2F2F2;
- 	margin: 40px 0 0 0;
- 	padding: 20px;
+ 	margin: 2% 0 0 0;
+ 	padding: 2%;
  }
 
- .f1 li, .f1 nav a
+ .f1 li, .f1 nav, .f1 nav a
 {
-	text-align: left;
 	text-decoration: none;
 	list-style-type: none;
-	margin: 0 120px 20px 0;
+	margin: 0 0 20px 0;
 	font-size: 0.8rem;
 	color: black;
 }
@@ -417,5 +442,144 @@ footer
 {
 	margin: 0 0 0 40px;
 	font-size: 0.9rem;
+}
 
+/* --------------- Mobile ------------ */
+
+
+@media only screen and (max-width: 480px) 
+{
+	/* body */
+
+	body
+	{
+		width: auto;
+		font-size: 2.5rem;
+	}
+	p, nav
+	{
+		font-family: 'raleway', 'sans serif';
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+
+	h1, h2, h3, h4, span, .irecherche
+	{
+		font-family: 'raleway_sb','sans serif';
+		font-size: 1.8rem;
+	}
+	h1
+	{
+		margin: -2% 0 0 5%;
+	}
+	/* header */
+
+	header
+	{
+		flex-direction: column;
+	}
+
+	.inscription
+	{
+		position: relative;
+		margin: 5% 0 30% 70%;
+		font-size: 1.3rem;
+
+	}
+
+	 .logoreservia
+	{
+		position: absolute;
+		width: 30%;
+		margin: 0 0 0 4%;
+
+	}
+
+	nav
+	{
+		position: absolute;
+		font-size: 1.5rem;
+		margin: 0 0 0 -75%;
+	}
+
+	.menu
+	{
+		
+		width: 100%
+	
+
+	}
+
+	header nav ul
+	{
+		margin:0;
+	}
+
+	header nav li
+	{
+		margin: 40% 0 0 0%;
+		padding: 10% 45% 10% 30%;
+		border-bottom: 4px solid lightgrey;
+		font-size: 1.2rem;
+	}
+	header nav a:hover
+	{
+		border-top: none;
+	}
+	header nav li:hover
+	{
+		font-style: italic;
+		border-bottom: 4px solid #0065FC;
+	}
+
+	/* text et recherch */
+
+		.btnrecherche
+		{
+			display: none;
+		}
+		.loupe
+		{
+			display: initial;
+			padding: 20%
+		}
+		.fa-search
+		{
+			padding: 4% 2% 2.8% 2%;
+		}
+
+		.irecherche
+		{
+			padding: 3%
+		}
+
+	/* filtres */
+
+	.filtres
+	{
+
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* hebergement */
+	#hebergements
+	{
+		width: auto;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+	}
+	.hebergement
+	{
+		width: auto;
+		flex-direction: column;
+	}
+
+	/* activité */
+
+	#activites
+	{
+		width: auto;
+		flex-direction: column;
+	}
 }
