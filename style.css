@@ -167,7 +167,7 @@ h3
 	font-size: 120%;
 }
 
-.fa-circle
+.filtrebtn .fa-circle
 {
 margin-left: -30%;
 font-size: 320%;
@@ -571,15 +571,40 @@ footer
 
 	.filtres
 	{
-
+		width: auto;
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
 	}
-	.filtres h3
+
+	.filtreinfo .titre_filtres
 	{
+
 		font-size: 65%;
 		margin-left: 5%;
+		padding-right: 15%
+
 	}
+
+	.filtrebtn
+	{
+		font-size: 50%;
+		padding-left: 0;
+	}
+	.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+	{
+		font-size: 110%;
+	}
+
+	.filtrebtn .fa-circle
+	{
+		font-size: 220%
+	}
+
+
+
+
+
+
 	/* hebergement */
 	#hebergements
 	{
