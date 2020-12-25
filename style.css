@@ -531,7 +531,10 @@ footer
 		font-style: italic;
 		border-bottom: 4px solid #0065FC;
 	}
-
+	p
+	{
+		margin: 2% 0 10% 5%;
+	}
 	/* text et recherch */
 
 		.btnrecherche
@@ -541,16 +544,27 @@ footer
 		.loupe
 		{
 			display: initial;
-			padding: 20%
 		}
 		.fa-search
 		{
-			padding: 4% 2% 2.8% 2%;
+			position: absolute;
+			padding: 5% 5% 5.5% 5%;
+			font-size: 50%
+
 		}
 
 		.irecherche
 		{
-			padding: 3%
+			padding: 5% 0% 4% 5%;
+			margin: 0 -8% 0 0;
+			font-size: 60%;
+		}
+
+		.fa-map-marker-alt
+		{
+			font-size: 65%;
+			padding: 5.1% 5% 4.8% 5%;
+			margin: 0 -3% 0 5%;
 		}
 
 	/* filtres */
@@ -561,7 +575,11 @@ footer
 		display: flex;
 		flex-direction: column;
 	}
-
+	.filtres h3
+	{
+		font-size: 65%;
+		margin-left: 5%;
+	}
 	/* hebergement */
 	#hebergements
 	{
