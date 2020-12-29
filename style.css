@@ -28,12 +28,11 @@ p, nav
 h1, h2, h3, h4, span, .irecherche
 {
 	font-family: 'raleway_sb','sans serif';
-	font-size: 1rem;
 }
 
 .bloc_page
 {
-	padding: 0 2% 0 2%;
+	padding: 0 3rem 0 3rem;
 }
 
 .hebergement a, .cadrep a, .cadrea a, .cadrea1 a
@@ -47,7 +46,7 @@ h1, h2, h3, h4, span, .irecherche
 header
 {
 	display: flex;
-	padding:	4% 0 3% 0;
+	padding:	50px 0 50px 0;
 }
 .logoreservia
 {
@@ -58,32 +57,34 @@ header nav ul
 {
 	display: flex;
 	list-style-type: none;
-	margin: 26% 0 0 0%;
+	margin: 0px 0 0 0;
 
 }
 
 header nav li
 {
-	padding: 0 0 0 30%;
+	padding: 0 0 0 60px;
 }
 
 .menu
 {
-margin: 0 0 0 60%;
+margin: 0 0 0 750px;
 }
 
 
 header nav a
 {
-	color:	#0065FC;
+	color:	black;
 	text-decoration: none;
 	font-weight: bold;
+
 }
 
 header nav a:hover
 {
+	color: #0065FC;
 	border-top: 4px solid #0065FC;
-	padding-top: 103px;
+	padding-top: 47px;
 	font-style: italic;
 }
 
@@ -92,7 +93,7 @@ header nav a:hover
 	font-weight: bold;
 	color:	#0065FC;
 	text-decoration: none;
-	margin: 2% 0 0 51%;
+	margin: 0px 0 0 1260px;
 	position: absolute;
 
 }
@@ -101,19 +102,19 @@ header nav a:hover
 
 h1
 {
-	margin-bottom: 1%;
+	margin-bottom: 0px;
 	font-size: 1.5em;
 }
 .rechercher i, input
 {
-	margin-right: -1%;
-	padding: 1.5%;
+	margin-right: -5px;
+	padding: 14px;
 }
 .fa-map-marker-alt
 {
 	background-color: #F2F2F2;
-	padding: 1.7%;
-	margin-right: -1%;
+	padding: 16px 14px 17px 14px;
+	margin-right: -5px;
 	border-radius: 30% 0 0 30%;
 }
 .btnrecherche
@@ -138,38 +139,42 @@ h1
 	background-color: #0065FC; 
 	color: white;
 	border-radius: 30% 30% 30% 30%;
-	padding: 25% 25% 25% 25%;
+	margin: 20px 0 0 0;
 }
 .loupe
 {
 	display: none;
+	font-size: 90px;
 }
-
+.recherche
+{
+	margin: 20px 0 0 0;
+}
 /* filtres */
 
 h3
 {
-	padding: 1% 3% 0 0.5%;
+	padding: 10px 30px 0 0;
 
 }
 
 .filtres
 {
 	display: flex;
-	margin-top: 2%
+	margin-top: 20px;
 }
 
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
-	margin-left: -15%;
+	margin-left: -3px;
 	color: #0065FC;
-	font-size: 120%;
+	font-size: 1.2rem;
 }
 
 .filtrebtn .fa-circle
 {
-margin-left: -30%;
+margin-left: -8px;
 font-size: 320%;
 color: #DEEBFF;
 }
@@ -178,12 +183,13 @@ color: #DEEBFF;
 	border: 3px solid #F2F2F2;
 	border-radius: 50px;
 	cursor: pointer;
-	margin: 1%;
+	margin: 1rem;
 	align-items: center;
-	padding: 0.4rem 1.5rem 0.4rem 0.5rem;
+	padding: 0.4rem 1rem 0.4rem 0;
 }
 .filtrebtn:hover
 {
+	color: #0065FC;
 	background-color: #DEEBFF;
 	font-style: italic;
 }
@@ -193,7 +199,7 @@ p i
 }
 p .far
 {
-	font-size: 180%;
+	font-size: 2rem;
 	color: #F2F2F2;
 
 }
@@ -201,10 +207,12 @@ p .far
 p .fas
 {
 	color: #0065FC;
-	margin-left: -15%;
 }
 
-
+.titre_filtres
+{
+	margin-top: 20px;
+}
 
 /* cadre hebergement et populaires */
 
@@ -223,8 +231,7 @@ section
 .titre_hebergement
 {
 	position: absolute;
-	padding: 1% 2% 5% 1.2%;
-	font-size: 140%
+	padding: 20px 40px 50px 40px;
 }
 
 article
@@ -232,7 +239,7 @@ article
 	background-color: #F2F2F2;
 	flex: 2.5;
 	border-radius: 20px;
-	padding: 6% 2% 3% 2%;
+	padding: 80px 40px 0px 40px;
 }
 
 .hebergement
@@ -241,12 +248,13 @@ article
 	position: relative;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 10px 0 0 0;
 }
 
 .cadreh
 {
 	border: 5px solid white;
-	margin: 1% 0 6% 0;
+	margin: 0 0 40px 0px;
 	cursor: pointer;
 	border-radius: 30px;
 	box-shadow: 0 0 10px grey;
@@ -267,31 +275,34 @@ article
 }
 .cadreh h3, .cadreh p, .noteh
 {
-	margin: 0 0 4% 4%;
+	margin: 0 0 5px 10px;
 	flex-wrap: wrap;
-	font-size: 100%;
+	font-size: 1rem;
 }
 
-article .afficher_plus
+.afficher_plus
 {
-	font-size: 110%;
+	position: absolute;
+	font-size: 1.2rem;
 	font-family: 'raleway_sb','sans serif';
 	text-decoration: none;
 	color: black;
+	font-weight: bold;
+	margin-top: -10px;
 }
 
 aside
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	padding: 2% 0 0 4%;
-	margin-left: 4%;
+	padding: 20px 0 0 40px;
+	margin-left: 40px;
 	flex: 1.1;
 }
 .cadrep
 {
-	padding: 0 0% 1.3% 0;
-	margin:	1% 10% 20% 0;
+	padding: 0px 0 5px 0;
+	margin:	30px 20px 40px 0;
 	border:	5px solid white;
 	border-radius: 30px;
 	background-color: white;
@@ -299,11 +310,14 @@ aside
 	justify-content: space-between;
 	box-shadow: 0 0 10px grey;
 }
-
+.populaires
+{
+	margin:-30px 0 0 0;
+}
 .cadrep h3, .cadrep p, .cadrep i
 {
-	font-size: 100%;
-	margin: 0 0 5% 0;
+	font-size: 0.9rem;
+	margin: 0 0 16px 0px;
 }
 
 .imgpopulaires
@@ -313,7 +327,7 @@ aside
 	object-fit: cover;
 	border-radius: 25px 0px 0 25px;
 	float: left;
-	padding: 0 2% 0 0;
+	padding: 0 15px 0px 0;
 }
 
 .cadrep:hover
@@ -324,14 +338,14 @@ aside
 .fa-chart-line
 {
 	display: flex;
-	font-size: 140%;
+	font-size: 1.5rem;
 	position: absolute;
-	margin: -2.2% 0 0 12.5%;
+	margin: -50px 0 0 300px;
 }
 
 aside h2
 {
-	padding:0 0 5% 0;
+	padding:30px 0 0 0;
 }
 /* cadre activités */
 #activites
@@ -344,7 +358,7 @@ aside h2
 #activites h2
 {
 	position: absolute;
-	margin: 0 0 0 40px;
+	margin: 0 0 0px 0;
 }
 
 .cadrea
@@ -353,7 +367,7 @@ aside h2
 	height: 100%;
 	background-color: white;
 	box-shadow: 0 0 5px;
-	margin: 40px 0 0 0;
+	margin: 50px 0 0 0;
 	border-radius: 25px 25px 25px 25px;
 	cursor: pointer;
 }
@@ -409,7 +423,7 @@ aside h2
  	width: 300px;
 	background-color: white;
 	box-shadow: 0 0 5px;
-	margin: 40px 0 65px 0;
+	margin: 50px 0 65px 0;
 	border-radius: 25px 25px 25px 25px;
 	cursor: pointer;
  }
@@ -424,17 +438,15 @@ aside h2
 footer
  {
  	display: flex;
- 	justify-content: space-between;
  	background-color: #F2F2F2;
- 	margin: 2% 0 0 0;
- 	padding: 2%;
+ 	margin: 40px 0 0 0;
+ 	padding: 20px;
  }
 
  .f1 li, .f1 nav, .f1 nav a
 {
 	text-decoration: none;
 	list-style-type: none;
-	margin: 0 0 20px 0;
 	font-size: 0.8rem;
 	color: black;
 }
@@ -442,6 +454,11 @@ footer
 {
 	margin: 0 0 0 40px;
 	font-size: 0.9rem;
+}
+
+.f1
+{
+	width: 33%
 }
 
 /* --------------- Mobile ------------ */
