@@ -67,7 +67,7 @@ header nav li
 
 .menu
 {
-margin: 0 0 0 750px;
+margin: -13px 0 0 750px;
 }
 
 
@@ -157,6 +157,11 @@ h3
 
 }
 
+.filtrebtn span
+	{
+		padding: 10px 0px 0 10px;
+	}
+
 .filtres
 {
 	display: flex;
@@ -174,7 +179,7 @@ h3
 .filtrebtn .fa-circle
 {
 margin-left: -8px;
-font-size: 320%;
+font-size: 51px;
 color: #DEEBFF;
 }
 .filtrebtn
@@ -466,12 +471,14 @@ footer
 
 
 @media only screen and (max-width: 767px) 
+
 {
 	/* body */
 
 	body
 	{
-		width: auto;
+		margin: 0;
+		width: 100%;
 		font-size: 2.5rem;
 	}
 	p, nav
@@ -481,15 +488,12 @@ footer
 		font-weight: bold;
 	}
 
-	h1, h2, h3, h4, span, .irecherche
+	h1, h2, h3, h4, .irecherche
 	{
 		font-family: 'raleway_sb','sans serif';
-		font-size: 1.8rem;
+		font-size: 25px;
 	}
-	h1
-	{
-		margin: -2% 0 0 5%;
-	}
+
 	/* header */
 
 	header
@@ -500,7 +504,7 @@ footer
 	.inscription
 	{
 		position: absolute;
-		margin: 5% 0 30% 70%;
+		margin: 20px 0 0 300px;
 		font-size: 1.3rem;
 
 	}
@@ -508,7 +512,7 @@ footer
 	 .logoreservia
 	{
 		width: 150px;
-		margin: 0 0 0 4%;
+		margin: 0 0 0 20px;
 
 	}
 
@@ -520,12 +524,13 @@ footer
 	.menu
 	{
 	margin:0;
+	width: 100%;
 	}
 
 	header nav li
 	{
-		margin: 0 0 0 -50px;
-		/*padding: 20px 240px 20px 80px;*/
+		margin: 0 0 0 -90px;
+		padding: 20px 130px 20px 80px;
 		width: 100%;
 		border-bottom: 4px solid lightgrey;
 		font-size: 1.2rem;
@@ -540,9 +545,9 @@ footer
 		font-style: italic;
 		border-bottom: 4px solid #0065FC;
 	}
-	p
+	p, h1
 	{
-		margin: 2% 0 10% 5%;
+		margin: 10px 0 20px -20px;
 	}
 	/* text et recherch */
 
@@ -557,31 +562,35 @@ footer
 		.fa-search
 		{
 			position: absolute;
-			padding: 23px 23px 23px 23px;
-			font-size: 20px;
-			margin: 37px 0 0 0;
+			padding: 21px 21px 21px 21px;
+			font-size: 30px;
+			margin: 34px 0 0 0px;
 
 		}
 
 		.irecherche
 		{
-			padding: 5% 0% 4% 5%;
-			margin: 0 -8% 0 0;
-			font-size: 60%;
+			padding: 24px 60px 20px 20px;
+			margin: 0 -20px 0 -40px;
+			font-size: 24px;
 		}
 
 		.fa-map-marker-alt
 		{
-			font-size: 65%;
-			padding: 5.1% 5% 4.8% 5%;
-			margin: 0 -3% 0 5%;
+			font-size: 26px;
+			padding: 25px 30px 24px 25px;
+			margin: 0 20px 0 -20px;
+		}
+		.recherche
+		{
+			width: 100%;
 		}
 
 	/* filtres */
 
 	.filtres
 	{
-		width: auto;
+		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -589,50 +598,167 @@ footer
 	.filtreinfo .titre_filtres
 	{
 
-		font-size: 65%;
-		margin-left: 5%;
-		padding-right: 15%
+		font-size: 25px;
+		padding-right: 20px;
 
 	}
-
+	.titre_filtres
+	{
+		position: absolute;
+		margin-left: -20px;
+	}
 	.filtrebtn
 	{
-		font-size: 50%;
+		margin: 80px 40px -60px -20px;
+		font-size: 20px;
 		padding-left: 0;
 	}
 	.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 	{
-		font-size: 110%;
+		font-size: 25px;
 	}
 
 	.filtrebtn .fa-circle
 	{
-		font-size: 220%
+		font-size: 58px;
+		padding: 0 25px 0 0;
+	}
+	.filtrebtn span
+	{
+		padding: 10px 0px 0 10px;
+		font-size: 20px;
+		margin: 0;
 	}
 
-
-
-
-
+	.information
+	{
+		margin-top: 40px;
+	}
+	.txtinfo
+	{
+	margin-top: -50px;
+	margin-left: 50px;
+	}
 
 	/* hebergement */
+
 	#hebergements
 	{
-		width: auto;
+		width: 100%;
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 	}
 	.hebergement
 	{
-		width: auto;
+		width: 100%;
 		flex-direction: column;
+	}
+
+	.cadreh
+	{
+		margin-right: 25px;
+		margin-bottom:15px;
+	}
+
+	.populaires
+	{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.cadrep
+	{
+		margin-bottom: -10px;
+	}
+
+	.imgpopulaires
+	{
+	width: 140px;
+	height: 150px;
+	}
+
+	aside
+	{
+		margin: 0 0 0 -50px;
+		width: 100%;
+		border-radius: 0;
+	}
+	article
+	{
+		margin: 0 0 40px -50px;
+		width: 100%;
+		border-radius: 0;
+		background-color: white;
+	}
+	.cadrep h3
+	{
+		font-size: 20px;
+		margin-bottom: 0px;
+		height: 48px;
+	}
+
+	.fa-chart-line
+	{
+		margin-left: 445px;
+	}
+
+	.titre_hebergement
+	{
+		position: static;
+	}
+
+	.hebergement
+	{
+		flex-direction: column-reverse;
+	}
+	.hebergement h2
+	{
+		margin: 30px 0 -100px -50px;
+	}
+	.imghebergement
+	{
+		width: 100%;
+		height: 150px;
+		margin-bottom: -5px;
+	}
+	.afficher_plus
+	{
+		margin-top: 10px;
 	}
 
 	/* activité */
 
 	#activites
 	{
-		width: auto;
 		flex-direction: column;
+		width: 100%;
 	}
+	#activites h2
+	{
+		margin-left: -10px;
+	}
+	.cadrea
+	{
+		width: 95%;
+		height: 200px;
+		margin-left: -10px;
+		margin-right: 40px;
+	}
+	.cadrea img
+	{
+		height: 75%;
+		object-position: 35% 35%;
+	}
+	.cadrea h3
+	{
+		margin-top: 5px;
+		font-size: 18px;
+	}
+
+	 .cadrea1,
+	 {
+	 	width: 95%;
+	 	height: 200px;
+	 	margin:0;
+	 	padding: 0;
+	 }
 }
