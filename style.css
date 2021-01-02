@@ -150,6 +150,14 @@ h1
 	margin: 20px 0 0 0;
 }
 /* filtres */
+.information
+{
+	display: flex;
+}
+.information .fa-stack
+{
+	padding-right: 20px;
+}
 
 h3
 {
@@ -636,13 +644,19 @@ footer
 	.information
 	{
 		margin-top: 40px;
+		padding: 0;
 	}
-	.txtinfo
+	.information p
+	{
+		margin: 0 0 20px 0;
+	}
+
+	/*.txtinfo
 	{
 	margin-top: -50px;
 	margin-left: 50px;
 	margin-bottom: 50px;
-	}
+	}*/
 
 	/* hebergement */
 
@@ -657,7 +671,7 @@ footer
 	{
 		margin-right: 0px;
 		margin-bottom:25px;
-		width: 85%;
+		width: 90%;
 	}
 	.cadreh h3
 	{
@@ -676,8 +690,9 @@ footer
 	}
 	.cadrep
 	{
+		margin-right: 0;
 		margin-bottom: -10px;
-		width: 85%;
+		width: 90%;
 	}
 
 	.imgpopulaires
@@ -688,14 +703,13 @@ footer
 
 	aside
 	{
-		margin: auto;
-		width: 100%;
+		margin: 0;
+		width: auto;
 		border-radius: 0;
 	}
 	article
 	{
 		margin: 0 0 40px 0px;
-		width: 100%;
 		border-radius: 0;
 		background-color: white;
 		padding: 80px 0 0 40px;
@@ -709,7 +723,7 @@ footer
 
 	.fa-chart-line
 	{
-		margin-left: 490px;
+		margin-left: 480px;
 	}
 
 	section .titre_hebergement
@@ -756,7 +770,6 @@ footer
 		width: 85%;
 		height: 200px;
 		margin-left: 40px;
-		margin-right: 40px;
 	}
 	.cadrea img
 	{
@@ -793,10 +806,11 @@ footer
 	 /* footer */
 	 footer
 	 {
+	 	width: 100%;
 	 	display: flex;
 	 	flex-direction: column;
-	 	padding-right: 0;
-	 	padding-left: 0;
+	 	margin-right: 0;
+	 	padding: 0;
 	 }
 
 	.f1 li, .f1 ul, .f1 nav a, .f1 h4
@@ -810,4 +824,73 @@ footer
 	 	width: 100%;
 	 	padding-bottom: 10px;
 	 }
+}
+
+@media screen and (min-width: 765px) and (max-width: 1366px)
+{
+	.bloc_page
+	{
+		padding: auto;
+	}
+
+	body
+	{
+		max-width: 1366px;
+		margin:auto;
+	}
+
+	/* header */
+
+	.inscription
+	{
+		position: absolute;
+		margin: 0 0 0 1100px;
+
+	}
+header nav ul
+{
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+
+header nav li
+{
+	padding: 0 0 0 60px;
+}
+
+.menu
+{
+margin: -13px 0 0 650px;
+}
+.fa-chart-line
+	{
+		margin-left: 270px;
+	}
+	.hebergement
+	{
+		padding-bottom: 70px;
+	}
+	.afficher_plus
+	{
+		margin-top: -60px;
+	}
+	.cadreh
+	{
+		margin: 10px;
+	}
+	.cadrea, .cadrea1
+	{
+		width: auto;
+		margin: 50px 10px 0 10px;
+		font-size: 11px;
+	}
+	.cadrea
+	{
+		height: 425px;
+	}
+	.cadrea h3
+	{
+		margin-top: 5px;
+	}
 }
