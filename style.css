@@ -882,7 +882,6 @@ footer
 		width: 100%;
 		border-bottom: 4px solid lightgrey;
 		font-size: 22px;
-		justify-content: space-between;
 	}
 	.recherche, .filtres
 	{
@@ -954,8 +953,17 @@ footer
 	{
 		width: 30%;
 	}
+	.cadrea1 h3
+	{
+		padding-bottom: 5px;
+	}
 	.cadrea
 	{
 		margin-left: 10px;
+	}
+	.cadrea h3
+	{
+		font-size: 16px;
+
 	}
 }
