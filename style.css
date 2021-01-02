@@ -57,7 +57,7 @@ header nav ul
 {
 	display: flex;
 	list-style-type: none;
-
+	padding: 0;
 }
 
 header nav li
@@ -474,10 +474,13 @@ footer
 
 {
 	/* body */
+	.bloc_page
+	{
+		padding: 0;
+	}
 
 	body
 	{
-		margin: 0;
 		width: 100%;
 		font-size: 2.5rem;
 	}
@@ -491,7 +494,7 @@ footer
 	h1, h2, h3, h4, .irecherche
 	{
 		font-family: 'raleway_sb','sans serif';
-		font-size: 25px;
+		font-size: 30px;
 	}
 
 	/* header */
@@ -504,7 +507,7 @@ footer
 	.inscription
 	{
 		position: absolute;
-		margin: 20px 0 0 300px;
+		margin: 20px 0 0 450px;
 		font-size: 1.3rem;
 
 	}
@@ -512,7 +515,7 @@ footer
 	 .logoreservia
 	{
 		width: 150px;
-		margin: 0 0 0 20px;
+		margin: 0 0 0 30px;
 
 	}
 
@@ -529,8 +532,8 @@ footer
 
 	header nav li
 	{
-		margin: 0 0 0 -90px;
-		padding: 20px 130px 20px 80px;
+		/*margin: 0 0 0 -90px;*/
+		padding: 20px 110px 20px 80px;
 		width: 100%;
 		border-bottom: 4px solid lightgrey;
 		font-size: 1.2rem;
@@ -547,7 +550,7 @@ footer
 	}
 	p, h1
 	{
-		margin: 10px 0 20px -20px;
+		margin: 10px 100px 20px 30px;
 	}
 	/* text et recherch */
 
@@ -564,13 +567,13 @@ footer
 			position: absolute;
 			padding: 21px 21px 21px 21px;
 			font-size: 30px;
-			margin: 34px 0 0 0px;
+			margin: 34px 0px 0 0px;
 
 		}
 
 		.irecherche
 		{
-			padding: 24px 60px 20px 20px;
+			padding: 24px 120px 20px 20px;
 			margin: 0 -20px 0 -40px;
 			font-size: 24px;
 		}
@@ -579,7 +582,7 @@ footer
 		{
 			font-size: 26px;
 			padding: 25px 30px 24px 25px;
-			margin: 0 20px 0 -20px;
+			margin: 0 20px 0 30px;
 		}
 		.recherche
 		{
@@ -605,11 +608,11 @@ footer
 	.titre_filtres
 	{
 		position: absolute;
-		margin-left: -20px;
+		margin-left: 30px;
 	}
 	.filtrebtn
 	{
-		margin: 80px 40px -60px -20px;
+		margin: 80px 40px -60px 30px;
 		font-size: 20px;
 		padding-left: 0;
 	}
@@ -638,6 +641,7 @@ footer
 	{
 	margin-top: -50px;
 	margin-left: 50px;
+	margin-bottom: 50px;
 	}
 
 	/* hebergement */
@@ -648,18 +652,23 @@ footer
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
 	}
-	.hebergement
-	{
-		width: 100%;
-		flex-direction: column;
-	}
 
 	.cadreh
 	{
-		margin-right: 25px;
-		margin-bottom:15px;
+		margin-right: 0px;
+		margin-bottom:25px;
+		width: 85%;
+	}
+	.cadreh h3
+	{
+		font-size: 22px;
 	}
 
+	.cadreh p
+	{
+		font-size: 20px;
+	}
+	
 	.populaires
 	{
 		width: 100%;
@@ -668,6 +677,7 @@ footer
 	.cadrep
 	{
 		margin-bottom: -10px;
+		width: 85%;
 	}
 
 	.imgpopulaires
@@ -678,41 +688,45 @@ footer
 
 	aside
 	{
-		margin: 0 0 0 -50px;
+		margin: auto;
 		width: 100%;
 		border-radius: 0;
 	}
 	article
 	{
-		margin: 0 0 40px -50px;
+		margin: 0 0 40px 0px;
 		width: 100%;
 		border-radius: 0;
 		background-color: white;
+		padding: 80px 0 0 40px;
 	}
 	.cadrep h3
 	{
-		font-size: 20px;
+		font-size: 22px;
 		margin-bottom: 0px;
 		height: 48px;
 	}
 
 	.fa-chart-line
 	{
-		margin-left: 445px;
+		margin-left: 490px;
 	}
 
-	.titre_hebergement
+	section .titre_hebergement
 	{
 		position: static;
+		order: 2;
+		padding: 0 0 0 40px;
+		margin-bottom: -60px;
+		margin-top: 60px;
 	}
-
-	.hebergement
+	section article
 	{
-		flex-direction: column-reverse;
+		order: 1;
 	}
-	.hebergement h2
+	section aside
 	{
-		margin: 30px 0 -100px -50px;
+		order: 3;
 	}
 	.imghebergement
 	{
@@ -723,6 +737,7 @@ footer
 	.afficher_plus
 	{
 		margin-top: 10px;
+		font-size: 22px;
 	}
 
 	/* activité */
@@ -734,13 +749,13 @@ footer
 	}
 	#activites h2
 	{
-		margin-left: -10px;
+		margin-left: 40px;
 	}
 	.cadrea
 	{
-		width: 95%;
+		width: 85%;
 		height: 200px;
-		margin-left: -10px;
+		margin-left: 40px;
 		margin-right: 40px;
 	}
 	.cadrea img
@@ -751,14 +766,48 @@ footer
 	.cadrea h3
 	{
 		margin-top: 5px;
-		font-size: 18px;
+		font-size: 22px;
 	}
 
-	 .cadrea1,
+	.cadreaensemble1 .cadrea1
 	 {
-	 	width: 95%;
+	 	width: 85%;
 	 	height: 200px;
-	 	margin:0;
+	 	margin-left: 40px;
+	 	margin-bottom: 0;
 	 	padding: 0;
+	 }
+
+	 .pomegues, .frioul, .notredame, .longchamp
+	 {
+	 	width: 100%;
+	 	height: 70%;
+	 }
+
+	 .cadreaensemble1 h3
+	 {
+	 	margin:10px 0 0 0;
+	 	font-size: 22px;
+	 }
+
+	 /* footer */
+	 footer
+	 {
+	 	display: flex;
+	 	flex-direction: column;
+	 	padding-right: 0;
+	 	padding-left: 0;
+	 }
+
+	.f1 li, .f1 ul, .f1 nav a, .f1 h4
+	 {
+	 	font-size: 22px;
+	 	width: 100%;
+
+	 }
+	 .f1
+	 {
+	 	width: 100%;
+	 	padding-bottom: 10px;
 	 }
 }
