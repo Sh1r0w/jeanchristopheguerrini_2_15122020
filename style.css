@@ -515,7 +515,7 @@ footer
 	.inscription
 	{
 		position: absolute;
-		margin: 20px 0 0 450px;
+		margin: 20px 0 0 500px;
 		font-size: 1.3rem;
 
 	}
@@ -541,11 +541,10 @@ footer
 	header nav li
 	{
 		/*margin: 0 0 0 -90px;*/
-		padding: 20px 110px 20px 80px;
+		padding: 20px 120px 20px 80px;
 		width: 100%;
 		border-bottom: 4px solid lightgrey;
 		font-size: 1.2rem;
-		justify-content: space-between;
 	}
 	header nav a:hover
 	{
@@ -671,7 +670,7 @@ footer
 	{
 		margin-right: 0px;
 		margin-bottom:25px;
-		width: 90%;
+		width: 92%;
 	}
 	.cadreh h3
 	{
@@ -692,7 +691,7 @@ footer
 	{
 		margin-right: 0;
 		margin-bottom: -10px;
-		width: 90%;
+		width: 92%;
 	}
 
 	.imgpopulaires
@@ -704,7 +703,7 @@ footer
 	aside
 	{
 		margin: 0;
-		width: auto;
+		width: 100%;
 		border-radius: 0;
 	}
 	article
@@ -723,7 +722,7 @@ footer
 
 	.fa-chart-line
 	{
-		margin-left: 480px;
+		margin-left: 540px;
 	}
 
 	section .titre_hebergement
@@ -767,7 +766,7 @@ footer
 	}
 	.cadrea
 	{
-		width: 85%;
+		width: 92%;
 		height: 200px;
 		margin-left: 40px;
 	}
@@ -784,7 +783,7 @@ footer
 
 	.cadreaensemble1 .cadrea1
 	 {
-	 	width: 85%;
+	 	width: 92%;
 	 	height: 200px;
 	 	margin-left: 40px;
 	 	margin-bottom: 0;
@@ -807,90 +806,156 @@ footer
 	 footer
 	 {
 	 	width: 100%;
-	 	display: flex;
 	 	flex-direction: column;
-	 	margin-right: 0;
-	 	padding: 0;
+	 	padding: 50px 40px 0 0;
 	 }
 
 	.f1 li, .f1 ul, .f1 nav a, .f1 h4
 	 {
-	 	font-size: 22px;
+	 	font-size: 20px;
 	 	width: 100%;
 
 	 }
 	 .f1
 	 {
 	 	width: 100%;
-	 	padding-bottom: 10px;
 	 }
 }
 
-@media screen and (min-width: 765px) and (max-width: 1366px)
+@media screen and (min-width: 768px) and (max-width: 1367px)
 {
 	.bloc_page
 	{
-		padding: auto;
+		padding: 0;
 	}
-
 	body
 	{
-		max-width: 1366px;
-		margin:auto;
+		width: 100%;
 	}
 
-	/* header */
-
+	header
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	h1, p, .information, #activites h2
+	{
+		margin-left: 50px;
+	}
+	.logoreservia
+	{
+		width: 150px;
+		margin-top: 20px;
+		margin-left: 50px;
+	}
 	.inscription
 	{
 		position: absolute;
-		margin: 0 0 0 1100px;
+		margin: 40px 0 0 1000px;
+		font-size: 22px;
 
 	}
-header nav ul
-{
-	display: flex;
-	list-style-type: none;
-	padding: 0;
-}
-
-header nav li
-{
-	padding: 0 0 0 60px;
-}
-
-.menu
-{
-margin: -13px 0 0 650px;
-}
-.fa-chart-line
+	header nav ul
 	{
-		margin-left: 270px;
+		display: flex;
+		list-style-type: none;
+		padding: 0;
 	}
-	.hebergement
+	header nav a:hover
 	{
-		padding-bottom: 70px;
+		border-top: none;
 	}
-	.afficher_plus
+	header nav li:hover
 	{
-		margin-top: -60px;
+		font-style: italic;
+		border-bottom: 4px solid #0065FC;
+	}
+	.menu
+	{
+	margin:0;
+	width: 100%;
+	}
+
+	header nav li
+	{
+		padding: 50px 80px 20px 180px;
+		width: 100%;
+		border-bottom: 4px solid lightgrey;
+		font-size: 22px;
+		justify-content: space-between;
+	}
+	.recherche, .filtres
+	{
+		margin-left: 50px;
+	}
+	.information p
+	{
+	 margin-left: 0px;
+	}
+	section
+	{
+		flex-direction: column-reverse;
+
+	}
+	aside
+	{
+		margin:20px 0 0 0;
+		border-radius: 0;
+	}
+	.populaires
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.cadrep
+	{
+		width: 31%;
+		margin-right: 10px;
+	}
+	.populaires h2
+	{
+		width: 100%;
+		padding-top: 0;
+	}
+	.fa-chart-line
+	{
+		margin: 20px 0 0 1150px;
+	}
+	section .titre_hebergement
+	{
+		position: static;
+		order: 2;
+		padding: 0 0 0 40px;
+		margin-bottom: -60px;
+		margin-top: 60px;
+	}
+	section article
+	{
+		order: 1;
+		background-color: white;
+	}
+	section aside
+	{
+		order: 3;
 	}
 	.cadreh
 	{
-		margin: 10px;
+		width: 31%;
+	}
+	.imghebergement
+	{
+		width: 100%;
 	}
 	.cadrea, .cadrea1
 	{
-		width: auto;
-		margin: 50px 10px 0 10px;
-		font-size: 11px;
+		margin: 50px 20px 0 0px;
+	}
+	.cadreaensemble1
+	{
+		width: 30%;
 	}
 	.cadrea
 	{
-		height: 425px;
-	}
-	.cadrea h3
-	{
-		margin-top: 5px;
+		margin-left: 10px;
 	}
 }
