@@ -484,7 +484,8 @@ footer
 	/* body */
 	.bloc_page
 	{
-		padding: 0;
+		padding: 0 0 0 0;
+
 	}
 
 	body
@@ -492,16 +493,13 @@ footer
 		width: 100%;
 		font-size: 2.5rem;
 	}
-	p, nav
+	p
 	{
-		font-family: 'raleway', 'sans serif';
 		font-size: 1.2rem;
-		font-weight: bold;
 	}
 
 	h1, h2, h3, h4, .irecherche
 	{
-		font-family: 'raleway_sb','sans serif';
 		font-size: 30px;
 	}
 
@@ -534,18 +532,18 @@ footer
 
 	.menu
 	{
-	margin:0;
-	width: 100%;
+	margin:0 -40px 0 0;
 	}
+
 
 	header nav li
 	{
-		/*margin: 0 0 0 -90px;*/
 		padding: 20px 120px 20px 80px;
-		width: 100%;
 		border-bottom: 4px solid lightgrey;
 		font-size: 1.2rem;
+		width: 100%;
 	}
+
 	header nav a:hover
 	{
 		border-top: none;
@@ -574,13 +572,13 @@ footer
 			position: absolute;
 			padding: 21px 21px 21px 21px;
 			font-size: 30px;
-			margin: 34px 0px 0 0px;
+			margin: 34px 0px 0px 0px;
 
 		}
 
 		.irecherche
 		{
-			padding: 24px 120px 20px 20px;
+			padding: 24px 120px 20px 30px;
 			margin: 0 -20px 0 -40px;
 			font-size: 24px;
 		}
@@ -591,10 +589,7 @@ footer
 			padding: 25px 30px 24px 25px;
 			margin: 0 20px 0 30px;
 		}
-		.recherche
-		{
-			width: 100%;
-		}
+
 
 	/* filtres */
 
@@ -649,13 +644,10 @@ footer
 	{
 		margin: 0 0 20px 0;
 	}
-
-	/*.txtinfo
+	.txtinfo
 	{
-	margin-top: -50px;
-	margin-left: 50px;
-	margin-bottom: 50px;
-	}*/
+		margin-top: 8px;
+	}
 
 	/* hebergement */
 
@@ -668,9 +660,9 @@ footer
 
 	.cadreh
 	{
-		margin-right: 0px;
+		margin-right: 40px;
 		margin-bottom:25px;
-		width: 92%;
+		width: 100%;
 	}
 	.cadreh h3
 	{
@@ -689,15 +681,17 @@ footer
 	}
 	.cadrep
 	{
-		margin-right: 0;
+		margin-right: 40px;
 		margin-bottom: -10px;
-		width: 92%;
 	}
-
+	.cadrep p
+	{
+		font-size: 18px;
+	}
 	.imgpopulaires
 	{
 	width: 140px;
-	height: 150px;
+	height: 165px;
 	}
 
 	aside
@@ -712,11 +706,13 @@ footer
 		border-radius: 0;
 		background-color: white;
 		padding: 80px 0 0 40px;
+		width: 100%;
 	}
 	.cadrep h3
 	{
 		font-size: 22px;
 		margin-bottom: 0px;
+		padding-bottom: 10px;
 		height: 48px;
 	}
 
@@ -758,7 +754,7 @@ footer
 	#activites
 	{
 		flex-direction: column;
-		width: 100%;
+		margin-right: 40px;
 	}
 	#activites h2
 	{
@@ -766,7 +762,7 @@ footer
 	}
 	.cadrea
 	{
-		width: 92%;
+		width: 100%;
 		height: 200px;
 		margin-left: 40px;
 	}
@@ -783,7 +779,7 @@ footer
 
 	.cadreaensemble1 .cadrea1
 	 {
-	 	width: 92%;
+	 	width: 100%;
 	 	height: 200px;
 	 	margin-left: 40px;
 	 	margin-bottom: 0;
