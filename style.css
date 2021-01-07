@@ -538,7 +538,7 @@ footer
 
 	header nav li
 	{
-		padding: 20px 120px 20px 80px;
+		padding: 20px 0 20px 0;
 		border-bottom: 4px solid lightgrey;
 		font-size: 1.2rem;
 		width: 100%;
@@ -552,6 +552,10 @@ footer
 	{
 		font-style: italic;
 		border-bottom: 4px solid #0065FC;
+	}
+	header nav ul
+	{
+		text-align: center;
 	}
 	p, h1
 	{
@@ -578,9 +582,10 @@ footer
 
 		.irecherche
 		{
-			padding: 24px 120px 20px 30px;
+			padding: 24px 0 20px 20px;
 			margin: 0 -20px 0 -40px;
 			font-size: 24px;
+			width: 70%;
 		}
 
 		.fa-map-marker-alt
@@ -676,7 +681,7 @@ footer
 	
 	.populaires
 	{
-		width: 100%;
+		width: 95%;
 		margin-bottom: 50px;
 	}
 	.cadrep
@@ -691,7 +696,12 @@ footer
 	.imgpopulaires
 	{
 	width: 140px;
-	height: 165px;
+	}
+
+	.cadrep img
+	{
+		height: 100%;
+		max-height: 165px;
 	}
 
 	aside
@@ -718,7 +728,7 @@ footer
 
 	.fa-chart-line
 	{
-	margin-left: 500px;
+	right: 40px;
 
 	}
 
@@ -749,7 +759,10 @@ footer
 		margin-top: 10px;
 		font-size: 22px;
 	}
-
+	.hebergement
+	{
+		width: 95%;
+	}
 	/* activité */
 
 	#activites
@@ -763,7 +776,7 @@ footer
 	}
 	.cadrea
 	{
-		width: 100%;
+		width: 95%;
 		height: 200px;
 		margin-left: 40px;
 	}
@@ -780,7 +793,7 @@ footer
 
 	.cadreaensemble1 .cadrea1
 	 {
-	 	width: 100%;
+	 	width: 95%;
 	 	height: 200px;
 	 	margin-left: 40px;
 	 	margin-bottom: 0;
@@ -842,8 +855,7 @@ footer
 	.logoreservia
 	{
 		width: 150px;
-		margin-top: 20px;
-		margin-left: 50px;
+		margin-left: 30px;
 	}
 	.inscription
 	{
@@ -859,6 +871,7 @@ footer
 		display: flex;
 		list-style-type: none;
 		padding: 0;
+		text-align: center;
 	}
 	header nav a:hover
 	{
@@ -917,11 +930,11 @@ footer
 	.populaires h2
 	{
 		width: 100%;
-		padding-top: 0;
+		padding-top: 20px;
 	}
 	.fa-chart-line
 	{
-		margin: 20px 0 0 0;
+		margin: 40px 0 0 0;
 		right: 40px;
 	}
 	section .titre_hebergement
