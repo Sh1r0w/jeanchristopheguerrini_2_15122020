@@ -585,7 +585,7 @@ footer
 			padding: 24px 0 20px 20px;
 			margin: 0 -20px 0 -40px;
 			font-size: 24px;
-			width: 70%;
+			width: 62%;
 		}
 
 		.fa-map-marker-alt
@@ -834,6 +834,7 @@ footer
 
 @media screen and (min-width: 1001px) and (max-width: 1367px)
 {
+	/* corps */
 	.bloc_page
 	{
 		padding: 0;
@@ -848,6 +849,9 @@ footer
 		display: flex;
 		flex-direction: column;
 	}
+
+	/* header et menu */
+
 	h1, p, .information
 	{
 		margin-left: 50px;
@@ -861,7 +865,6 @@ footer
 	{
 		position: absolute;
 		margin:0;
-		/*margin: 40px 0 0 1000px;*/
 		right: 10px;
 		font-size: 22px;
 
@@ -895,6 +898,9 @@ footer
 		border-bottom: 4px solid lightgrey;
 		font-size: 22px;
 	}
+
+	/* recherche et filtre */
+
 	.recherche, .filtres
 	{
 		margin-left: 50px;
@@ -907,6 +913,9 @@ footer
 	{
 	 margin-left: 0px;
 	}
+
+	/* hebergement et populaires */
+
 	section
 	{
 		flex-direction: column-reverse;
@@ -962,6 +971,9 @@ footer
 	{
 		width: 100%;
 	}
+
+	/* activités */
+
 	.cadreaensemble1
 	{
 		width: 43%;
@@ -979,7 +991,6 @@ footer
 
 	#activites
 	{
-		/*flex-direction: column;*/
 		flex-wrap: wrap;
 	}
 	.cadrea
