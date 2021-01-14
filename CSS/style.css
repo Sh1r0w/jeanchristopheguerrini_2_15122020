@@ -44,6 +44,7 @@ span,
 	font-family: 'raleway', 'sans-serif';
 }
 
+
 .bloc_page {
 	padding: 0 3rem 0 3rem;
 }
@@ -137,6 +138,7 @@ input {
 .irecherche {
 	border: 1px solid #F2F2F2;
 	font-size: 1rem;
+		font-weight: bold;
 }
 
 .fa-search {
