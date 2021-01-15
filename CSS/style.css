@@ -553,13 +553,13 @@ footer {
 		display: initial;
 	}
 	.fa-search {
-		position: absolute;
-		margin: 34px 0 0 0;
+	/*	position: absolute;
+		margin: 0 120px 0 0;*/
 		padding: 21px 21px 21px 21px;
 		font-size: 30px;
 	}
 	.irecherche {
-		width: 62%;
+		width: 55%;
 		margin: 0 -20px 0 -40px;
 		padding: 24px 0 20px 20px;
 		font-size: 24px;
