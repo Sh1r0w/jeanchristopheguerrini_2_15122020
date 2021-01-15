@@ -702,9 +702,9 @@ footer {
 		margin-left: 40px;
 	}
 	.cadrea {
-		width: 90%;
+		width: auto;
 		height: 200px;
-		margin: 50px 0 0 40px;
+		margin: 50px 5% 0 40px;
 	}
 	.cadrea img {
 		height: 75%;
