@@ -511,7 +511,7 @@ footer {
 	/* header */
 	header {
 		flex-direction: column;
-		margin: 40px 0 0 0;
+		padding: 50px 0 0 0;
 	}
 	.inscription {
 		position: absolute;
@@ -616,8 +616,8 @@ footer {
 	}
 	.filtrebtn span {
 		margin: 0;
-		padding: 10px 0 0 16px;
-		font-size: 19px;
+		padding: 10px 0 0 12px;
+		font-size: 18px;
 	}
 	.information {
 		margin-top: 40px;
