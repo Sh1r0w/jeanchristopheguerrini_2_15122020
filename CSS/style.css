@@ -507,6 +507,7 @@ footer {
 	h4,
 	.irecherche {
 		font-size: 22px;
+		font-weight: 800;
 	}
 	/* header */
 	header {
@@ -634,8 +635,8 @@ footer {
 		margin-top:2px;
 	}
 	/* hebergement */
-	.cadrep .noteh{
-		font-size: 0.7rem;
+	.cadrep .fa-star, .noteh{
+		font-size: 0.8rem;
 	}
 	#hebergements {
 		flex-direction: column-reverse;
@@ -648,10 +649,10 @@ footer {
 		margin-bottom: 25px;
 	}
 	.cadreh h3 {
-		font-size: 22px;
+		font-size: 16px;
 	}
 	.cadreh p {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.populaires {
 		width: 95%;
@@ -662,7 +663,7 @@ footer {
 		margin-bottom: -10px;
 	}
 	.cadrep p {
-		font-size: 18px;
+		font-size: 16px;
 		margin-bottom: 28px;
 	}
 	.imgpopulaires {
@@ -688,7 +689,7 @@ footer {
 		height: 48px;
 		margin-bottom: 0;
 		padding-bottom: 10px;
-		font-size: 17px;
+		font-size: 16px;
 	}
 	.fa-chart-line {
 		right: 20px;
@@ -709,7 +710,7 @@ footer {
 	}
 	.imghebergement {
 		width: 100%;
-		height: 150px;
+		height: 100px;
 		margin-bottom: -5px;
 	}
 	.afficher_plus {
@@ -737,7 +738,7 @@ footer {
 	}
 	.cadrea h3 {
 		margin-top: 5px;
-		font-size: 19px;
+		font-size: 17px;
 	}
 	.cadreaensemble1 .cadrea1 {
 		width: 95%;
@@ -759,7 +760,10 @@ footer {
 	}
 	.cadreaensemble1 h3 {
 		margin: 10px 0 0 0;
-		font-size: 22px;
+		font-size: 16px;
+	}
+	.cadrea h3, .cadrea1 h3 {
+		padding: 0 0 10px 20px;
 	}
 	/* footer */
 	footer {
