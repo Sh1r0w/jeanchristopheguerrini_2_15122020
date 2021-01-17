@@ -1,6 +1,4 @@
 /* Police fournie Raleway */
-
-
 /*@font-face
 {
 	font-family: 'raleway';
@@ -518,7 +516,8 @@ footer {
 	.inscription {
 		position: absolute;
 		right: 10px;
-		font-size: 1.1rem;
+		font-size: 1rem;
+		font-weight: 800;
 	}
 	.logoreservia {
 		width: 100px;
@@ -532,9 +531,9 @@ footer {
 	}
 	header nav li {
 		width: 100%;
-		padding: 20px 0 20px 0;
+		padding: 20px 0 10px 0;
 		border-bottom: 4px solid lightgrey;
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	header nav a:hover {
 		border-top: none;
