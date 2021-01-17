@@ -504,7 +504,7 @@ footer {
 	h3,
 	h4,
 	.irecherche {
-		font-size: 29px;
+		font-size: 22px;
 	}
 	/* header */
 	header {
@@ -543,7 +543,7 @@ footer {
 	}
 	p,
 	h1 {
-		margin: 10px 100px 20px 30px;
+		margin: 10px 0px 10px 20px;
 	}
 	/* text et recherch */
 	.btnrecherche {
@@ -560,14 +560,14 @@ footer {
 	}
 	.irecherche {
 		width: 55%;
-		margin: 0 -20px 0 -40px;
-		padding: 26px 0 21px 8px;
-		font-size: 22px;
+		margin: 0 -20px 0 -30px;
+		padding: 17px 0 17px 8px;
+		font-size: 20px;
 	}
 	.fa-map-marker-alt {
-		margin: 0 20px 0 22px;
-		padding: 25px 30px 24px 25px;
-		font-size: 26px;
+		margin: 0 20px 0 20px;
+		padding: 20px;
+		font-size: 20px;
 	}
 	/* filtres */
 	.filtres {
